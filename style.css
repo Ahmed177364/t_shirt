@@ -1,0 +1,279 @@
+body{
+          background: rgb(255, 255, 255);
+          margin: 0%;
+          padding: 0%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+          /*--header--*/
+.header{
+          width: 100%;
+          height: 60px;
+          background: white;
+          display: flex;
+          justify-content: space-between;
+          line-height: 60px;
+          position: fixed;
+          box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+          z-index: 5;
+}
+.logo{
+          margin-left: 50px;
+          font-size: 30px;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-optical-sizing: auto;
+          font-style: normal;
+          font-weight: 900;
+}
+.sidetext{
+          margin-right: 50px;
+}
+.sidetext a{
+          text-decoration: none;
+          margin-right: 40px;
+          font-size: 15px;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 700;
+          color: rgba(0, 0, 0, 0.637);
+          transition: 0.2s;
+}
+.sidetext a:hover{
+          color: orange;
+}
+            /*--a act--*/
+#activee{
+          color: orange;
+}
+            /*---*/
+.created{
+          border-radius: 50px;
+          background: rgba(0, 0, 0, 0);
+          color: rgb(0, 0, 0);
+          border-style: solid;
+          border-color: black;
+          border-width: 2px;
+          height: 45px;
+          width: 150px;
+          font-size: 20px;
+          transition: 0.5s;
+          margin-top: 8px;
+}
+.created:hover{
+          opacity: 0.3;
+}
+/*------------------------------------------*/
+.sdiespeac{
+          width: 100%;
+          height: 60px;
+}
+/*------------------------------------------*/
+.sideunderhead{
+          width: 100%;
+          height: 70px;
+          background-color: rgb(255, 255, 255);
+          bottom: 0;
+          margin-top: auto;
+          position: fixed;
+          display: none;
+          box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+          z-index: 5;
+          padding: 10px 0px 10px 0px;
+          border-top-left-radius: 50px;
+          border-top-right-radius: 50px;
+          
+}
+.sideunderhead div{
+          width: 25px;
+          height: 25px;
+          padding-inline: 100px;
+}
+.sideunderhead .sdicon img{
+          width: 25px;
+          height: 25px;
+          transition: 0.5s;
+}
+.sideunderhead .sdicon img:hover{
+          opacity: 0.3;
+}
+.sdicon{
+          display: flex;
+          justify-content: center;
+          margin: auto;
+}
+.sdicon .sideicons{
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+}
+.sidecontainer {
+          position: relative;
+          width: 89%;
+          height: 250px; 
+          overflow: hidden;
+          margin: auto;
+          margin-top: 50px;
+          border-radius: 30px;
+      }
+ 
+      .sidecontainer video {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          min-width: 100%;
+          min-height: 100%;
+          width: auto;
+          height: auto;
+          z-index: -1;
+          transform: translate(-50%, -50%);
+          background-size: cover;
+      }
+      
+      
+      .sidecontainer h1 {
+          font-size: 3rem;
+          margin-bottom: 10px;
+          font-weight: 900;
+          color: white;
+      }
+      
+      .created2{
+          border-radius: 50px;
+          background: black;
+          color: white;
+          border-style: solid;
+          border-color: rgb(255, 255, 255);
+          height: 45px;
+          width: 150px;
+          font-size: 20px;
+          transition: 0.5s;
+          margin-top: 8px;
+}
+.created2:hover{
+          opacity: 0.3;
+}
+.sidecontinertshirt{
+          width: auto;
+          height: auto;
+          background-color: white;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+}
+.sidetextcinsideuyoy{
+          height: auto;
+          width: auto;
+          text-align: center;
+          margin-bottom: 30px;
+          margin-top: 150px;
+}
+.sidetextcinsideuyoy h1 ,h3{
+          font-family: 'Montserrat', sans-serif;
+}
+.sidetextcinsideuyoy h1{
+          font-weight: 900;
+          color: black;
+}
+.sidetextcinsideuyoy h3{
+          color: rgba(0, 0, 0, 0.548);
+}
+.divline{
+          margin: auto;
+          width: 100px;
+          height: 10px;
+          border-radius: 50px;
+          background-color: orange;
+}
+.sideshopdivs{
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          margin: auto;
+          gap: 20px;
+          width: 89%;
+          height: auto;
+          z-index: 1;
+}
+.sideshopdivs .divshops{
+          background-color: white;
+          box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+          border-radius: 20px;
+          height: 450px;
+          width: auto;
+          transition: 1s;
+}
+.sideshopdivs .divshops:hover {
+          box-shadow: rgba(255, 136, 0, 0.16) 0px 10px 26px 0px, rgba(255, 136, 0, 0.363) 0px 5px 26px 0px;
+        }
+.sideordercon{
+          display: flex;
+          justify-content: space-between;
+          flex-direction: row;
+          width: 89%;
+          height: 100px;
+          margin: auto;
+          border-radius: 15px;
+          margin-top: 50px;
+          box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.ordernowsend{
+          border-radius: 50px;
+          background: rgb(0, 0, 0);
+          color: rgb(255, 255, 255);
+          border-style: solid;
+          border-color: rgb(0, 0, 0);
+          border-width: 2px;
+          height: 60px;
+          width: 150px;
+          font-size: 20px;
+          transition: 0.5s;
+          margin-top: 20px;
+          margin-right: 20px;
+}
+.ordernowsend:hover{
+          opacity: 0.3;
+}
+.sidetextorder h1{
+          font-size: 15px;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 700;
+          color: rgba(0, 0, 0, 0.637);
+          line-height: 80px;
+          margin-left: 20px;
+}
+
+@media (max-width: 950px) {
+          ::-webkit-scrollbar{
+                    width: 0px;
+          }
+          .sideunderhead{
+                    display: block;
+                    margin-top: auto;
+                    z-index: 5;
+                    bottom: 0;
+                    position: fixed;
+                    border-top-left-radius: 50px;
+                    border-top-right-radius: 50px;
+          }
+          .sideunderhead div{
+                    width: 35px;
+                    height: 35px;
+                    padding-inline: 50px;
+                    margin-top: 5px;
+          }
+          .logo{
+                    margin-left: 20px;
+          }
+          .sidetext{
+                    margin-right: 20px;
+          }
+          .sidetext a{
+                    display: none;
+          }
+          .sideshopdivs{
+                    display: grid;
+                    grid-template-columns: repeat(1, 1fr);
+                    margin: auto;
+                    gap: 20px;
+                    width: 89%;
+                    z-index: 1;
+                    margin-top: 30px;
+          }
+}
